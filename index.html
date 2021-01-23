@@ -1,366 +1,324 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="Css/index.css" />
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>SuperHeroes</title>
-  </head>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
+  <link rel="stylesheet" href="Css/index.css" />
 
-  <body>
-    <!-- header -->
-    <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container">
-        <div class="container-fluid">
-          <!-- <a class="navbar-brand" href="#">
-                    <img src="img/logo.png" alt="Logo">
-                    SuperWeb
-                </a> -->
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <a class="navbar-brand" href="#">
-              <img src="img/logo.png" alt="Logo" />
-              SuperWeb
-            </a>
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
-                  >La conferencia</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Vengadores </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Lugar y Fecha </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Comviertete en Heroe </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link super-heroe" href="#">Compra de Ticket</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </nav>
-    <!-- /header -->
+  <title>SuperHeroes</title>
+</head>
 
-    <!-- main -->
-    <main id="main">
-      <div
-        id="carousel"
-        class="carousel slide carousel-fade"
-        data-bs-ride="carousel"
-        data-bs-pause="false"
-      >
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img
-              src="img/vengadores1.jpg"
-              class="d-block w-100"
-              alt="vengadores 1"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              src="img/vengadores2.jpg"
-              class="d-block w-100"
-              alt="vengadores 2"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              src="img/vengadores3.jpg"
-              class="d-block w-100"
-              alt="vengadores 3 "
-            />
-          </div>
-        </div>
-        <div class="overlay">
-          <div class="container">
-            <div class="row align-items-center">
-              <div class="col-md-6 offset-md-6 text-center text-md-right">
-                <h1>SuperWeb</h1>
-                <p class="d-none d-md-block">
-                  Evento de los Vengadores todo la informacion de primera mano
-                  con los mejores profecionales
-                </p>
-                <a href="#" class="btn btn-outline-light"
-                  >Quiero ser un Vengador</a
-                >
-                <button type="button" class="btn btn-super">
-                  Comprar tick
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </main>
-    <!-- /main -->
-
-    <!-- speakers -->
-    <section id="speakers" class="mt-4">
-      <div class="container">
-        <div class="row">
-          <div class="col text-center text-uppercase">
-            <small>conoce a los</small>
-            <h2>Vengadores</h2>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-sm-12 col-md-6 col-lg mb-4">
-            <div class="card" style="width: 18rem">
-              <img src="img/card1.jpg" class="card-img-top" alt="Iron Man" />
-              <div class="card-body">
-                <div class="badges">
-                  <span class="badge bg-secondary">Millonario</span>
-                  <span class="badge bg-dark">Playboy</span>
-                </div>
-                <h5 class="card-title">Iron Man</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-6 col-lg mb-4">
-            <div class="card" style="width: 18rem">
-              <img
-                src="img/card2.jpg"
-                class="card-img-top"
-                alt="Capitan America"
-              />
-              <div class="card-body">
-                <div class="badges">
-                  <span class="badge bg-secondary">Soldado</span>
-                  <span class="badge bg-dark">Justiciero</span>
-                </div>
-                <h5 class="card-title">Capitan America</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-6 col-lg mb-4">
-            <div class="card" style="width: 18rem">
-              <img src="img/card3.jfif" class="card-img-top" alt="Nick Fury" />
-              <div class="card-body">
-                <div class="badges">
-                  <span class="badge bg-secondary">Lider</span>
-                  <span class="badge bg-dark">Sabio</span>
-                </div>
-                <h5 class="card-title">Nick Fury</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-6 col-lg mb-4">
-            <div class="card" style="width: 18rem">
-              <img
-                src="img/card4.jfif"
-                class="card-img-top"
-                alt="Bruce Banner"
-              />
-              <div class="card-body">
-                <div class="badges">
-                  <span class="badge bg-secondary">Cientifico</span>
-                  <span class="badge bg-dark">Furioso</span>
-                </div>
-                <h5 class="card-title">Bruce Banner</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-6 col-lg mb-4">
-            <div class="card" style="width: 18rem">
-              <img
-                src="img/card5.jpg"
-                class="card-img-top"
-                alt="Natasha Romanova"
-              />
-              <div class="card-body">
-                <div class="badges">
-                  <span class="badge bg-secondary">Acecina</span>
-                  <span class="badge bg-dark">Hermosa</span>
-                </div>
-                <h5 class="card-title">Natasha Romanova</h5>
-                <p class="card-text">
-                  La Viuda Negra se creó inicialmente como un personaje de cómic
-                  llamado Natasha Romanova, apareciendo por primera vez como una
-                  antagonista recurrente, no disfrazada, de espía ruso en la
-                  historieta "Iron Man".
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-6 col-lg mb-4">
-            <div class="card" style="width: 18rem">
-              <img src="img/card7.jfif" class="card-img-top" alt="Thor" />
-              <div class="card-body">
-                <div class="badges">
-                  <span class="badge bg-secondary">semidios</span>
-                  <span class="badge bg-dark">Guerrero</span>
-                </div>
-                <h5 class="card-title">Thor</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- /speakers -->
-
-    <!-- lugar y fecha -->
-    <section id="place-time">
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="76">
+  <!-- header -->
+  <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
       <div class="container-fluid">
-        <div class="row">
-          <div class="col-12 col-lg-6 ps-0 pe-0">
-            <img src="img/wakanda.jpg" alt="wakanda" />
-          </div>
-          <div class="col-12 col-lg-6 pt-4 pb-4">
-            <h2>Wakanda</h2>
-            <p>
-              Wakanda es un país ficticio situado en el África subsahariana,
-              creado por Marvel Comics.1​ Es el hogar del superhéroe Pantera
-              Negra. Wakanda apareció por primera vez en Fantastic Four # 52
-              (julio de 1966), y fue creado por Stan Lee y Jack Kirby.2​3​.
-              Wakanda ha aparecido en cómics y varias adaptaciones, incluidas
-              las películas de Marvel Cinematic Universe Capitán América: Civil
-              War (2016), Black Panther (2018), Avengers: Infinity War (2018) y
-              Avengers: Endgame (2019). Por ello se ha hecho más conocida a
-              nivel mundial.
-            </p>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar">
+          <a class="navbar-brand" href="#">
+            <img src="img/logo.png" alt="Logo" />
+            SuperWeb
+          </a>
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#main">conferencia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#speakers">Vengadores </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#place-time">Lugar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#formulario">conviértete en Heroe </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link super-heroe" href="#">Compra de Ticket</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- /header -->
 
-            <a href="https://es.wikipedia.org/wiki/Wakanda" class="btn btn-outline-light">Conoce mas</a>
+  <!-- main -->
+  <main id="main">
+    <div id="carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-pause="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/vengadores1.jpg" class="d-block w-100" alt="vengadores 1" />
+        </div>
+        <div class="carousel-item">
+          <img src="img/vengadores2.jpg" class="d-block w-100" alt="vengadores 2" />
+        </div>
+        <div class="carousel-item">
+          <img src="img/vengadores3.jpg" class="d-block w-100" alt="vengadores 3 " />
+        </div>
+      </div>
+      <div class="overlay">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-6 offset-md-6 text-center text-md-right">
+              <h1>SuperWeb</h1>
+              <p class="d-none d-md-block">
+                Evento de los Vengadores todo la informacion de primera mano
+                con los mejores profecionales
+              </p>
+              <a href="#" class="btn btn-outline-light">Quiero ser un Vengador</a>
+              <button type="button" class="btn btn-super">
+                Comprar tick
+              </button>
+            </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- /lugar y fecha -->
+    </div>
+  </main>
+  <!-- /main -->
 
-      <!-- formulario -->
-      <section id="formulario" class="pt-3 pb-3">
-        <div class="conteiner">
-          <div class="row">
-            <div class="col text-center text-uppercase ">
-                <small > Conviertete en</small>
-                <h2>Vengador</h2>
-            </div>
-          </div>
+  <!-- speakers -->
+  <section id="speakers" class="mt-4">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center text-uppercase">
+          <small>conoce a los</small>
+          <h2>Vengadores</h2>
+        </div>
+      </div>
 
-          <div class="row">
-            <div class="col text-center text-uppercase"> 
-              Anotate como Vengador para dar una  charla ignite.
-              Cuentanos de que quieres hablar!
-            </div>
-          </div>
-
-          <div class="row"> 
-            <div class="col pt-2">
-                <div class="row">
-                  <div class=" col-12 col-md-3 offset-md-3  mb-2">
-                    <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
-                  </div>
-                  <div class=" col-12 col-md-3 offset-md  mb-2">
-                    <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
-                  </div>
-                </div>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class=" col-sm-12 col-md-6 offset-md-3 mb-2">
-                <textarea name="text" class="form-control form-control-lg" placeholder="¿Sobre que quieres hablar?"></textarea>
-                <small class="form-text text-muted" > Recuerda incluir un titulo para tu charla</small>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-sm-12  col-md-6 offset-md-3">
-              <button type="button" class="btn btn-super col-12 mx-auto"> Enviar</button>
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg mb-4">
+          <div class="card" style="width: 18rem">
+            <img src="img/card1.jpg" class="card-img-top" alt="Iron Man" />
+            <div class="card-body">
+              <div class="badges">
+                <span class="badge bg-secondary">Millonario</span>
+                <span class="badge bg-dark">Playboy</span>
+              </div>
+              <h5 class="card-title">Iron Man</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
             </div>
           </div>
         </div>
-      </section>
-      <!-- /formulario -->
-
-
-    <!-- footer -->
-    <footer id="footer" class="pb-4 pt-4">
-      <div class="container">
-        <div class="row text-center">
-          <div class="col-12 col-lg">
-            <a href="*"> Preguntas frecuentes</a>
+        <div class="col-sm-12 col-md-6 col-lg mb-4">
+          <div class="card" style="width: 18rem">
+            <img src="img/card2.jpg" class="card-img-top" alt="Capitan America" />
+            <div class="card-body">
+              <div class="badges">
+                <span class="badge bg-secondary">Soldado</span>
+                <span class="badge bg-dark">Justiciero</span>
+              </div>
+              <h5 class="card-title">Capitan America</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
           </div>
-          <div class="col-12 col-lg">
-            <a href="*"> Contactanos</a>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg mb-4">
+          <div class="card" style="width: 18rem">
+            <img src="img/card3.jfif" class="card-img-top" alt="Nick Fury" />
+            <div class="card-body">
+              <div class="badges">
+                <span class="badge bg-secondary">Lider</span>
+                <span class="badge bg-dark">Sabio</span>
+              </div>
+              <h5 class="card-title">Nick Fury</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
           </div>
-          <div class="col-12 col-lg">
-            <a href="*"> Presa</a>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg mb-4">
+          <div class="card" style="width: 18rem">
+            <img src="img/card4.jfif" class="card-img-top" alt="Bruce Banner" />
+            <div class="card-body">
+              <div class="badges">
+                <span class="badge bg-secondary">Cientifico</span>
+                <span class="badge bg-dark">Furioso</span>
+              </div>
+              <h5 class="card-title">Bruce Banner</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
           </div>
-          <div class="col-12 col-lg">
-            <a href="*"> Conferencia</a>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg mb-4">
+          <div class="card" style="width: 18rem">
+            <img src="img/card5.jpg" class="card-img-top" alt="Natasha Romanova" />
+            <div class="card-body">
+              <div class="badges">
+                <span class="badge bg-secondary">Acecina</span>
+                <span class="badge bg-dark">Hermosa</span>
+              </div>
+              <h5 class="card-title">Natasha Romanova</h5>
+              <p class="card-text">
+                La Viuda Negra se creó inicialmente como un personaje de cómic
+                llamado Natasha Romanova, apareciendo por primera vez como una
+                antagonista recurrente, no disfrazada, de espía ruso en la
+                historieta "Iron Man".
+              </p>
+            </div>
           </div>
-          <div class="col-12 col-lg">
-            <a href="*"> Terminos y condiciones</a>
-          </div>
-          <div class="col-12 col-lg">
-            <a href="*"> Privacidad</a>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg mb-4">
+          <div class="card" style="width: 18rem">
+            <img src="img/card7.jfif" class="card-img-top" alt="Thor" />
+            <div class="card-body">
+              <div class="badges">
+                <span class="badge bg-secondary">semidios</span>
+                <span class="badge bg-dark">Guerrero</span>
+              </div>
+              <h5 class="card-title">Thor</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
           </div>
         </div>
       </div>
-    </footer>
-    <!--/footer -->
+    </div>
+  </section>
+  <!-- /speakers -->
 
-    <!-- Optional JavaScript; choose one of the two! -->
+  <!-- lugar y fecha -->
+  <section id="place-time">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 col-lg-6 ps-0 pe-0">
+          <img src="img/wakanda.jpg" alt="wakanda" />
+        </div>
+        <div class="col-12 col-lg-6 pt-4 pb-4">
+          <h2>Wakanda</h2>
+          <p>
+            Wakanda es un país ficticio situado en el África subsahariana,
+            creado por Marvel Comics.1​ Es el hogar del superhéroe Pantera
+            Negra. Wakanda apareció por primera vez en Fantastic Four # 52
+            (julio de 1966), y fue creado por Stan Lee y Jack Kirby.2​3​.
+            Wakanda ha aparecido en cómics y varias adaptaciones, incluidas
+            las películas de Marvel Cinematic Universe Capitán América: Civil
+            War (2016), Black Panther (2018), Avengers: Infinity War (2018) y
+            Avengers: Endgame (2019). Por ello se ha hecho más conocida a
+            nivel mundial.
+          </p>
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-      crossorigin="anonymous"
-    ></script>
+          <a href="https://es.wikipedia.org/wiki/Wakanda" class="btn btn-outline-light">Conoce mas</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /lugar y fecha -->
 
-    <!-- Option 2: Separate Popper and Bootstrap JS  -->
-    <!--     
+  <!-- formulario -->
+  <section id="formulario" class="pt-3 pb-3">
+    <div class="conteiner">
+      <div class="row">
+        <div class="col text-center text-uppercase">
+          <small> Conviertete en</small>
+          <h2>Vengador</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col text-center text-uppercase">
+          Anotate como Vengador para dar una charla
+          <abbr data-bs-toggle="tooltip" title="Charla de 5 minutos">ignite.</abbr>
+          Cuentanos de que quieres hablar!
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col pt-2">
+          <div class="row">
+            <div class="col-12 col-md-3 offset-md-3 mb-2">
+              <input type="text" class="form-control" placeholder="Nombre" aria-label="First name" />
+            </div>
+            <div class="col-12 col-md-3 offset-md mb-2">
+              <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-12 col-md-6 offset-md-3 mb-2">
+          <textarea name="text" class="form-control form-control-lg"
+            placeholder="¿Sobre que quieres hablar?"></textarea>
+          <small class="form-text text-muted">
+            Recuerda incluir un titulo para tu charla</small>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-12 col-md-6 offset-md-3">
+          <button type="button" class="btn btn-super col-12 mx-auto">
+            Enviar
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /formulario -->
+
+  <!-- footer -->
+  <footer id="footer" class="pb-4 pt-4">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-12 col-lg">
+          <a href="*"> Preguntas frecuentes</a>
+        </div>
+        <div class="col-12 col-lg">
+          <a href="*"> Contactanos</a>
+        </div>
+        <div class="col-12 col-lg">
+          <a href="*"> Presa</a>
+        </div>
+        <div class="col-12 col-lg">
+          <a href="*"> Conferencia</a>
+        </div>
+        <div class="col-12 col-lg">
+          <a href="*"> Terminos y condiciones</a>
+        </div>
+        <div class="col-12 col-lg">
+          <a href="*"> Privacidad</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--/footer -->
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS  -->
+  <!--     
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script> -->
-  </body>
+
+  <script src="js/index.js"></script>
+</body>
+
 </html>
