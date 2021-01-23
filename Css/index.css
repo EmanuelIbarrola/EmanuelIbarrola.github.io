@@ -1,18 +1,39 @@
 #header img {
-    width: 50px;
+    /* width: 80px; */
+    height: 50px;
 }
-.url-link {
-    height: 40px;
+.btn-super{
+    background-color: #97c93e ;
+    color: white;
 }
-.url-link a {
-    position: relative;
-    top: 20px;
+.btn-super:hover{
+    background-color: #7faa32;
 }
 
-.url-link ul {
+#carousel{
     position: relative;
-    bottom: 45px;
 }
+
+ #carousel .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left:  0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white; 
+
+}
+#carousel .overlay .conteiner,
+#carousel .overlay .row{
+    height: 100%;
+}
+
+.overlay{
+    z-index: 1;
+    overflow: hidden;
+}
+
 
 .super-heroe{
     color: #97c93e !important ;

@@ -17,45 +17,46 @@
 <body>
 
     <!-- header -->
-    <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container url-link">
+    <nav  id="header" class= "navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container"> 
             <div class="container-fluid">
+                <!-- <a class="navbar-brand" href="#">
+                    <img src="img/logo.png" alt="Logo">
+                    SuperWeb
+                </a> -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
                 <a class="navbar-brand" href="#">
                     <img src="img/logo.png" alt="Logo">
                     SuperWeb
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse " id="navbarSupportedContent">
-                    <ul class="navbar-nav  ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">La conferencia</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Vengadores </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Lugar y Fecha </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Comviertete en Heroe </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link super-heroe " href="#">Compra de Ticket</a>
-                        </li>
-                    </ul>
-                </div>
+                <ul class="navbar-nav ms-auto ">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">La conferencia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Vengadores </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Lugar y Fecha </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Comviertete en Heroe </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link super-heroe " href="#">Compra de Ticket</a>
+                </ul>
             </div>
-        </div>
+            </div>
+       </div>
     </nav>
     <!-- /header -->
 
     <!-- main -->
     <main id="main"> 
-        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel" data-pause="false">
+        <div id="carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-pause="false">
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img src="img/vengadores1.jpg" class="d-block w-100" alt="vengadores 1" >
@@ -67,15 +68,19 @@
                 <img src="img/vengadores3.jpg" class="d-block w-100" alt="vengadores 3 ">
               </div>
             </div>
-            
-            <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </a>
+              <div class="overlay">
+                  <div class="container">
+                    <div class="row  align-items-center">
+                        <div class="col-md-6 offset-md-6 text-center text-md-right">
+                                <h1>SuperWeb</h1>
+                                <p class="d-none d-md-block">Evento de los Vengadores todo la informacion de primera mano con los mejores profecionales </p>
+                                <a href="#" class="btn btn-outline-light">Quiero ser un Vengador</a>
+                                <button type="button" class="btn btn-super">Comprar tick</button>
+                        </div>
+                    </div>
+                  </div>
+
+              </div>
 
           </div>
     </main>
