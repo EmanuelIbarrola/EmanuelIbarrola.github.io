@@ -1,6 +1,5 @@
 #header img {
-    /* width: 80px; */
-    height: 50px;
+    height: 60px;
 }
 .btn-super{
     background-color: #97c93e ;
@@ -24,10 +23,10 @@
     color: white; 
 
 }
-#carousel .overlay .conteiner,
+/* #carousel .overlay .conteiner,
 #carousel .overlay .row{
     height: 100%;
-}
+} */
 
 .overlay{
     z-index: 1;
