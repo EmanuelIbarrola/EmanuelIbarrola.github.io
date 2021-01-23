@@ -42,7 +42,7 @@
               <a class="nav-link" href="#formulario">conviértete en Heroe </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link super-heroe" href="#">Compra de Ticket</a>
+              <a class="nav-link super-heroe" href="#"  data-bs-toggle="modal" data-bs-target="#modalCompra">Compra de Ticket</a>
             </li>
           </ul>
         </div>
@@ -75,7 +75,7 @@
                 con los mejores profecionales
               </p>
               <a href="#" class="btn btn-outline-light">Quiero ser un Vengador</a>
-              <button type="button" class="btn btn-super">
+              <button type="button" class="btn btn-super"  data-bs-toggle="modal" data-bs-target="#modalCompra">
                 Comprar tick
               </button>
             </div>
@@ -305,6 +305,49 @@
     </div>
   </footer>
   <!--/footer -->
+
+    <!-- modal -->
+
+    <div class="modal" tabindex="-1" id="modalCompra">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Comprar tickets</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form >
+              <div class="form-row">
+                <div class="form-group col">
+
+                  <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1">@</span>
+                    <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+
+                  </div>
+                </div>
+              </div>
+            </form>
+
+            <div class="alert alert-warning" role="alert">
+             Recibiras un correo de confirmacion si sales sorteado!
+            </div>
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+            <button type="button" class="btn btn-super">Comprar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- /modal -->
+
+
+
+
+
 
   <!-- Optional JavaScript; choose one of the two! -->
 
