@@ -45,7 +45,13 @@
     filter: grayscale(70%);
 }
 
-
+#place-time img {
+    max-width: 100%;
+}
+#place-time {
+    background-color: #343a40;
+    color:white
+}
 
 
 
